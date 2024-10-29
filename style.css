@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image:url("Trend-Photoroom.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+/* box2 */
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* box3*/
+.nav-search {
+    display: flex;
+    background-color: rgb(33, 198, 198);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 550px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.nav-search:hover{
+      border: 2px solid rgb(33, 198, 198);
+}
+span{
+    font-size: 0.8rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-b{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/** box4 **/
+.nav-cart i {
+    font-size: 35px;
+}
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f22;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops {
+    color: white;
+    display: flex;
+    font-size: 0.9rem;
+    width: 70%;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-Deals{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 300px;
+   
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 25%;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+.box-img{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-img2{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content2 p{
+    color: #007185;
+}
+.box-img3{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content3 p{
+    color: #007185;
+}
+.box-img4{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content4 p{
+    color: #007185;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+
+}
+.box-img5{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content5{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content5 p{
+    color: #007185;
+}
+.box-img6{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content6{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content6 p{
+    color: #007185;
+}
+.box-img7{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content7{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content7 p{
+    color: #007185;
+}
+.box-img8{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.box-content8{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content8 p{
+    color: #007185;
+}
+.hero-section2{
+    background-image: url(sec2.png);
+    background-size: cover;
+    height: 400px;
+}
+.hero-section3{
+    background-image: url(sec3.png);
+    background-size: cover;
+    height: 400px;
+}
+.hero-section4{
+    background-image: url(sec4.png);
+    background-size: cover;
+    height: 400px;
+}
+.hero-section5{
+    background-image: url(sec5.png);
+    background-size: cover;
+    height: 400px;
+}
+.hero-section6{
+    background-image: url(sec6.png);
+    background-size: cover;
+    height: 400px;
+}
+/*footer*/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    height: 50px;
+    background-color:#37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    color: white;
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul p{
+    font-size: 1rem;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #37475a;
+   color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    background-image:url("Trend-Photoroom.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.page{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
